@@ -1,24 +1,28 @@
 import logo from './logo.svg';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
+import Layout from './components/layout/layout';
+import MainBoard from './components/layout/main/mainboard';
+
+import RegionBoardList from './components/layout/main/region_board_list';
+import FestivalBoardList from './components/layout/main/festival_board_list';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+    <BrowserRouter>
+    <Routes>      
+    <Route path="/" element={<MainBoard/>}/>                     
+         <Route path="/region_board_list" element={<RegionBoardList/>}/>
+         <Route path="/festival_board_list" element={<FestivalBoardList/>}/>         
+         
+         </Routes>
+        </BrowserRouter>
+    </Layout>
+
+  
   );
 }
 

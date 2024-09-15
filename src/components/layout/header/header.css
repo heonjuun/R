@@ -1,0 +1,25 @@
+/* Header 스타일 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#462679;
+    
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #f9f9f9;
+  }
+  
+  .header .user-id {
+    font-size: 18px;
+    color: #f9f9f9;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #f9f9f9;
+  }
