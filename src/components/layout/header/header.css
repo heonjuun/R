@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+<<<<<<< HEAD
     background-color:#A611CB;
     border-bottom: 1px solid #000;
     position: relative;
@@ -11,26 +12,43 @@
   }
   .header .main_header{
     margin-left: 350px;
+=======
+    background-color:#ffffff;
+    border-bottom: 1px solid #000;
+    position: relative;
+>>>>>>> 3a232bc128c0a63e44d9b4781784ec7f7d9b5f61
     
   }
   
   .header h1 {
     font-size: 24px;
+<<<<<<< HEAD
     color: #000;
     
+=======
+    color: #ee3aeb;
+>>>>>>> 3a232bc128c0a63e44d9b4781784ec7f7d9b5f61
   }
   
   .header .user-id {
     font-size: 18px;
+<<<<<<< HEAD
     
     
+=======
+    color: #ee3aeb;
+>>>>>>> 3a232bc128c0a63e44d9b4781784ec7f7d9b5f61
   }
   
   .menu-icon {
     font-size: 24px;
     cursor: pointer;
+<<<<<<< HEAD
     
     margin-right: 350px;
+=======
+    color: #ee3aeb;
+>>>>>>> 3a232bc128c0a63e44d9b4781784ec7f7d9b5f61
   }
   /* 드롭다운 메뉴 */
 .dropdown-menu {
@@ -42,7 +60,10 @@
   border-radius: 8px;
   overflow: hidden;
   z-index: 1000;
+<<<<<<< HEAD
   margin-right: 350px;
+=======
+>>>>>>> 3a232bc128c0a63e44d9b4781784ec7f7d9b5f61
 }
 
 .dropdown-menu ul {
