@@ -26,9 +26,19 @@ body {
     align-items: center;
     margin-bottom: 20px;
   }
-  
-  .blue-btn, .purple-btn {
-    background-color: #5dafff;
+  .toolbar .blue-btn{
+    background-color: #dc5dff;
+    color: white;
+  }
+  .toolbar .search{
+    background-color: #dc5dff;
+    color: white;
+  }
+  .toolbar .purple-btn{
+    background-color: #dc5dff;
+    color: white;
+  }
+  .blue-btn, .purple-btn {    
     color: white;
     border: none;
     padding: 10px 15px;

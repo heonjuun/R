@@ -1,7 +1,11 @@
 .festival-board {
     font-family: Arial, sans-serif;
-    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
   }
+
+  
   
   .toolbar {
     display: flex;
