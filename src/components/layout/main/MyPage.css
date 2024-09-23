@@ -28,13 +28,15 @@
   }
   
   /* 프로필 섹션 */
-  .profile-section {
+  .profile-section  {
     display: flex;
     margin-right: 800px;
     text-align: center;
-    margin-bottom: 20px;
-       
+    margin-bottom: 20px;    
+    align-items: center; /* 자식 요소를 세로(수직) 기준으로 가운데 정렬시킴 */
+    
   }
+
 
   
   .profile-pic {
@@ -60,11 +62,13 @@
     margin-right: 10px; 
   }
   .profile-name{    
-    margin: 0 auto;   
-    font-size: 18px;    
-    white-space: nowrap; 
+    margin-left: 50px;
     
+    font-size: 18px;    
+    white-space: nowrap;     
+    vertical-align: middle;
   }
+
   .grid-item {
     background-color: #f9f9f9;
     border: 1px solid #ddd;

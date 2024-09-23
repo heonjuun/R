@@ -56,7 +56,9 @@ const RegionFestivalBoard = () => {
             </tr>
             <tr>
               <td>14</td>
-              <td>아오모리 시의 네부타 축제</td>
+              <td onClick={()=>{
+                navigate(`/view_festival`)
+              }}>아오모리 시의 네부타 축제</td>
               <td>관리자</td>
               <td>2024-05-21</td>
               <td>97</td>
@@ -89,6 +91,12 @@ const RegionFestivalBoard = () => {
           </tbody>
         </table>
       </div>
+          {/* 페이지네이션 */}
+          <div className="pagination">
+        <button className="page-btn">1</button>
+        <button className="page-btn">2</button>
+        <button className="page-btn">3</button>
+      </div>
 
       {/* 사이드 섹션 */}
       <div className="side-section">
@@ -114,12 +122,7 @@ const RegionFestivalBoard = () => {
         </div>
       </div>
 
-      {/* 페이지네이션 */}
-      <div className="pagination">
-        <button className="page-btn">1</button>
-        <button className="page-btn">2</button>
-        <button className="page-btn">3</button>
-      </div>
+  
     </div>
   );
 };
